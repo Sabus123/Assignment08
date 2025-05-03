@@ -1,14 +1,16 @@
 import { createBrowserRouter } from "react-router";
-import App from "../App";
-import Favorites from "../favorites";
 import Home from "../pages/Home";
 import MainLayouts from "../layouts/MainLayouts";
+import Favorites from "../pages/Favorites";
+import About from "../pages/About";
+import LawyerDetailse from "../pages/LawyerDetailse";
+import ErrorPages from "../pages/ErrorPages";
 
 export const router = createBrowserRouter([
     {
       path: '/',
       Component: MainLayouts,
-      errorElement: <p>Error</p>,
+      errorElement: <ErrorPages></ErrorPages>,
       children: [
         {
             path: '/',
@@ -20,8 +22,12 @@ export const router = createBrowserRouter([
         },
         {
           path: '/about',
-          element: <p>This is about section</p>,
+          element: <About></About>,
         },
+        {
+            path: '/lawyer-detailse',
+            element: <LawyerDetailse></LawyerDetailse>,
+          },
       ]
       },
       
