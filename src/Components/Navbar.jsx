@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu menu-sm cursor-pointer mr-2 dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><a>Home</a></li>
         <li>
           <a>Blogs</a>
@@ -21,7 +21,7 @@ const Navbar = () => {
             <li><a>Contract</a></li>
           </ul>
         </li>
-        <li><a>Item 3</a></li>
+        <li><a>Contract</a></li>
       </ul>
     </div>
     <div className="flex gap-0 lg:ml-5">
