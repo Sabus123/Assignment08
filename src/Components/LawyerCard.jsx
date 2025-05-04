@@ -2,12 +2,12 @@ import React from 'react';
 import { PiIdentificationCardThin } from "react-icons/pi";
 
 const LawyerCard = ({lawyer}) => {
-    const {name, speciality,licenseNumber,availability,experience} = lawyer || {}
+    const {name, speciality,licenseNumber,availability,experience, image} = lawyer || {}
     return (
         <div className="card card-side bg-base-100 shadow-sm">
   <figure>
     <img
-      src="https://static.vecteezy.com/system/resources/thumbnails/029/604/377/small/law-consultation-agreement-contract-lawyers-advise-on-litigation-matters-and-sign-contracts-as-lawyers-to-accept-complaints-from-clients-concept-attorney-ai-generated-photo.jpg"
+      src={image}
       alt="Movie" className='w-50 h-50 rounded-4xl'/>
   </figure>
   <div className='flex mb-2 absolute right-0 top-0'>
