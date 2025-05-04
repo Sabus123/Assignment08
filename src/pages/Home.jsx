@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
             <Hero></Hero>
-            <LawyerContainer></LawyerContainer>
+            <LawyerContainer lawyer={data}></LawyerContainer>
         </div>
     );
 };
