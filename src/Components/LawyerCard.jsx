@@ -1,8 +1,9 @@
 import React from 'react';
 import { PiIdentificationCardThin } from "react-icons/pi";
+import { Link } from 'react-router';
 
 const LawyerCard = ({lawyer}) => {
-    const {name, speciality,licenseNumber,availability,experience, image} = lawyer || {}
+    const {name, speciality,licenseNumber,availability,experience, image, id} = lawyer || {}
     return (
         <div className="card card-side bg-base-100 shadow-sm">
   <figure>
@@ -19,7 +20,10 @@ const LawyerCard = ({lawyer}) => {
     <p className='font-bold'>{speciality}</p>
     <p>License No : {licenseNumber}</p>
     <div className="card-actions justify-end">
+
+    <Link to= {`/lawyer-detailse/${id}`}>
     <button className="btn btn-wide rounded-2xl">View Details</button>
+    </Link>
     </div>
   </div>
 </div>

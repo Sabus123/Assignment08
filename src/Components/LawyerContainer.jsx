@@ -26,7 +26,12 @@ else{
       </div>
       <div className="flex items-center justify-center">
   <button
-    onClick={() => setShowAll(prev => !prev)}
+    onClick={() => {
+        setShowAll(prev => !prev)
+        if(showAll) window.scrollTo(0,400)
+
+    }}
+
     className="relative inline-block text-lg group focus:outline-none"
   >
     <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">

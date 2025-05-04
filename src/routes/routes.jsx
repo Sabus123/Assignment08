@@ -15,7 +15,8 @@ export const router = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home>,
-            loader: ()=> fetch('lawyers.json'),
+            hydrateFallbackElement: <p>Loading, please wait...</p>,
+            loader: ()=> fetch('../lawyers.json'),
         },
         {
           path: '/favorites',
@@ -26,8 +27,9 @@ export const router = createBrowserRouter([
           element: <About></About>,
         },
         {
-            path: '/lawyer-detailse',
+            path: '/lawyer-detailse/:id',
             element: <LawyerDetailse></LawyerDetailse>,
+            loader: ()=> fetch('../lawyers.json'),
           },
       ]
       },
