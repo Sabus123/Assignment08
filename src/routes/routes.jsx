@@ -14,7 +14,8 @@ export const router = createBrowserRouter([
       children: [
         {
             path: '/',
-            element: <Home></Home>
+            element: <Home></Home>,
+            loader: ()=> fetch('lawyers.json'),
         },
         {
           path: '/favorites',

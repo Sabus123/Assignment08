@@ -1,0 +1,111 @@
+[
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Ayesha Rahman",
+      "speciality": "Criminal Law",
+      "experience": 10,
+      "licenseNumber": "CR-102345",
+      "availability": ["Monday", "Wednesday", "Friday"],
+      "fees": 150
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Tanvir Alam",
+      "speciality": "Corporate Law",
+      "experience": 12,
+      "licenseNumber": "CO-112233",
+      "availability": ["Tuesday", "Thursday"],
+      "fees": 200
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Sabina Jahan",
+      "speciality": "Family Law",
+      "experience": 8,
+      "licenseNumber": "FL-334455",
+      "availability": ["Monday", "Thursday", "Saturday"],
+      "fees": 120
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Mahmud Hasan",
+      "speciality": "Immigration Law",
+      "experience": 15,
+      "licenseNumber": "IM-778899",
+      "availability": ["Wednesday", "Friday"],
+      "fees": 180
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Nusrat Anjum",
+      "speciality": "Civil Litigation",
+      "experience": 9,
+      "licenseNumber": "CL-556677",
+      "availability": ["Tuesday", "Thursday", "Saturday"],
+      "fees": 160
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Farhan Kabir",
+      "speciality": "Labor Law",
+      "experience": 11,
+      "licenseNumber": "LL-998877",
+      "availability": ["Monday", "Wednesday", "Friday"],
+      "fees": 140
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Lubna Chowdhury",
+      "speciality": "Banking Law",
+      "experience": 13,
+      "licenseNumber": "BL-223344",
+      "availability": ["Tuesday", "Thursday"],
+      "fees": 190
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Shafique Rahman",
+      "speciality": "Intellectual Property",
+      "experience": 7,
+      "licenseNumber": "IP-445566",
+      "availability": ["Wednesday", "Saturday"],
+      "fees": 175
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Raisa Islam",
+      "speciality": "Environmental Law",
+      "experience": 6,
+      "licenseNumber": "EL-667788",
+      "availability": ["Monday", "Friday"],
+      "fees": 130
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Ashfaq Noor",
+      "speciality": "Tax Law",
+      "experience": 14,
+      "licenseNumber": "TX-889900",
+      "availability": ["Tuesday", "Thursday", "Saturday"],
+      "fees": 210
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Meherin Haque",
+      "speciality": "Human Rights Law",
+      "experience": 9,
+      "licenseNumber": "HR-110022",
+      "availability": ["Wednesday", "Friday"],
+      "fees": 155
+    },
+    {
+      "image": "https://via.placeholder.com/150",
+      "name": "Iqbal Ahmed",
+      "speciality": "International Law",
+      "experience": 16,
+      "licenseNumber": "IN-990011",
+      "availability": ["Monday", "Thursday"],
+      "fees": 230
+    }
+  ]
+  
