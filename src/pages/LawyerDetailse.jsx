@@ -89,9 +89,11 @@ const LawyerDetailse = () => {
           for today only. We appreciate your.
         </button>
 
+        <Link to='/favorites' className='text-center w-auto p-5'>
         <button onClick={handleFavorite} className="w-auto border-yellow-950 border-radius-2 bg-green-600 rounded-2xl ml-3 mr-3 mb-3 h-9 text-white">
           Book Appointment Now
         </button>
+        </Link>
 
       </div>
     </div>
